@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Instagram, Music, Youtube } from "lucide-react";
+import { AtSign, MessageCircle, Music, Play } from "lucide-react";
 import logoImg from "@/assets/logo.png";
 
 const quickLinks = [
@@ -15,9 +15,9 @@ const quickLinks = [
 
 const socialLinks = [
   { name: "WhatsApp", href: "https://wa.me/2348129374001", icon: MessageCircle },
-  { name: "Instagram", href: "https://instagram.com/livingfaithchurch", icon: Instagram },
+  { name: "Instagram", href: "https://instagram.com/livingfaithchurch", icon: AtSign },
   { name: "TikTok", href: "https://tiktok.com/@livingfaithchurch", icon: Music },
-  { name: "YouTube", href: "https://youtube.com/@livingfaithchurch", icon: Youtube },
+  { name: "YouTube", href: "https://youtube.com/@livingfaithchurch", icon: Play },
 ];
 
 export default function Footer() {
